@@ -7,7 +7,7 @@ https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_V1.14.1.pdf
 https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
 # schedule
-  * UselabelselectorstoschedulePods
+  * Use label selectors to schedulePods
   
 
 
