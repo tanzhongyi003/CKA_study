@@ -11,6 +11,10 @@ https://kubernetes.io/docs/reference/kubectl/cheatsheet/
     * Ref: https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/
     * Sample: 
       kubectl label nodes node1 disktype=ssd
+      kubectl get nodes --show-labels
+      https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/
+        nodeSelector:
+          disktype: ssd
 
   
 
