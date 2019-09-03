@@ -1,22 +1,12 @@
-# study
+# Kubernetes Study
 
-# 
+# CKA curriculum 1.14
 https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_V1.14.1.pdf
 
 # kubectl cheatsheet
 https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
-# schedule
-  * Use label selectors to schedulePods
-    * Ref: https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/
-    * Sample: 
-        *  kubectl label nodes node1 disktype=ssd
-        *  kubectl get nodes --show-labels
-        *  https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/
-            * nodeSelector:
-            * disktype: ssd
-        *  kubectl get pods --output=wide
-    * https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/#create-a-pod-that-gets-scheduled-to-specific-node
-  
+# 1. <a href=scheduling.md> Scheduling 5% </a>
+
 
 
