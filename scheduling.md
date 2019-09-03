@@ -1,4 +1,6 @@
 # 1. Scheduling 5%
+https://cka-exam.blog/scheduling-5/
+
 
 * Use label selectors to schedulePods
   * Ref: https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/
@@ -13,17 +15,29 @@
   
 * Understand the role of DaemonSets
   * Ref: https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/
-  Every Nodes run a daemonset
+  * Run a pod on every Nodes of a cluster
+  * Pods managed by DaemonSets bypass the scheduler
 
-* Understand how resource limits can afect Pod scheduling.
+* Understand how resource limits can afect Pod scheduling
+  * Ref: https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/memory-default-namespace/
   * Ref: https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/
-  https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/
+  * Ref: https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/
 
 * Understand how to run multiple schedulers and how to configure Pods
   * Ref: https://kubernetes.io/docs/tasks/administer-cluster/configure-multiple-schedulers/
   * set schedulerName=xxx in Pod spec
 
+* Manually schedule a pod without a scheduler
+  * Ref: https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/
+
 * Display scheduler events.
-  * Sample: kubectl get events
+  * Sample: kubectl describe /kubectl get events/kubectl get evnt
 
 * Know how to configure the Kubernetes scheduler.
+  * taints - applies to nodes
+    * master node typically has a taint of node-role.kubernetes.io/master:NoSchedule
+  * tolerations:
+  * node selectors
+  * node affinity
+  * node anti-affinity
+ 
