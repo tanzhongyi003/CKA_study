@@ -13,7 +13,7 @@ https://kubernetes.io/docs/reference/kubectl/cheatsheet/
         *  kubectl label nodes node1 disktype=ssd
         *  kubectl get nodes --show-labels
         *  https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/
-          * nodeSelector:
+            * nodeSelector:
             * disktype: ssd
         *  kubectl get pods --output=wide
     * https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/#create-a-pod-that-gets-scheduled-to-specific-node
