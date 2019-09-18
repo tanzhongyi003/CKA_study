@@ -37,7 +37,11 @@ https://cka-exam.blog/scheduling-5/
   * taints - applies to nodes
     * master node typically has a taint of node-role.kubernetes.io/master:NoSchedule
   * tolerations:
+    * apply to pods; to deploy to a node, they need to tolerate the taint
   * node selectors
-  * node affinity
-  * node anti-affinity
+  * pod affinity
+    *  determine where pods are placed in respect to one another
+  * pod anti-affinity
+    *  determine where pods are not placed in respect to one another
+
  
