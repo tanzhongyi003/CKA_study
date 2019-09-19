@@ -12,14 +12,16 @@ https://cka-exam.blog
 
 
 # 1. <a href=scheduling.md> Scheduling 5% </a>
-# 2. <a href=logging.md> Logging/Monitoring </a>
+# 2. <a href=logging.md> Logging/Monitoring 5% </a>
 
 
 # Tools 
 
   ## CKA Exam tool: https://github.com/arush-sal/cka-practice-environment
 
-To use the prebuilt images run:   docker-compose up -d and point your browser to http://localhost
+To use the prebuilt images run:   
+  ### docker-compose up -d 
+  and point your browser to http://localhost
 
 ## Using systemd in Linux 
 https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal
