@@ -33,4 +33,7 @@ https://cka-exam.blog/logging-monitoring-5/
      * Use a node-level logging agent that runs on every node.
      * Include a dedicated sidecar container for logging in an application pod.
      * Push logs directly to a backend from within an application.
+     
+   * kubectl logs samples: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs
+
   
