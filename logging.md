@@ -27,7 +27,7 @@ https://cka-exam.blog/logging-monitoring-5/
  * Manage application logs
  https://kubernetes.io/docs/concepts/cluster-administration/logging/
    * Basic logging in Kubernetes
-     * kubectl logs pod xxx
+     * kubectl logs xxx  #xxx is pod name
    * Logging at the node level
    * Cluster-level logging architecture
      * Use a node-level logging agent that runs on every node.

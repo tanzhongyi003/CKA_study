@@ -13,6 +13,7 @@ https://cka-exam.blog
 
 # 1. <a href=scheduling.md> Scheduling 5% </a>
 # 2. <a href=logging.md> Logging/Monitoring 5% </a>
+# 3. <a href=applicationlifecycle.md> ApplicationLifecycle Management 8% </a>
 
 
 # Tools 
