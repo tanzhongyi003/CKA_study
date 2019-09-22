@@ -32,6 +32,11 @@ https://cka-exam.blog/core-concepts/
 
   * Nodes https://kubernetes.io/docs/concepts/architecture/nodes/
   * Master-Node communication https://kubernetes.io/docs/concepts/architecture/master-node-communication/
+    * Cluster to Master
+      * Master listen on HTTPS Port 443
+    * Master to Cluster
+      * apiserver to kubelet
+      * apiserver to node/pod/service through apiserver's proxy  
   * Cloud Controller Manager https://kubernetes.io/docs/concepts/architecture/cloud-controller/
 
 * Understand Services and other network primitives.
