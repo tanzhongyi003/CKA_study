@@ -1,9 +1,14 @@
 # Core Concepts 11%
+https://cka-exam.blog/core-concepts/
 
 * Understand the Kubernetes API primitives.
-  * API doc https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.9/
+  * Kubernetes API Concepts
+ https://kubernetes.io/docs/reference/using-api/api-concepts/
   * Kubernetes API overiview
-https://kubernetes.io/docs/reference/api-overview/
+  https://kubernetes.io/docs/concepts/overview/kubernetes-api/
+  * Kubernetes API reference
+  https://kubernetes.io/docs/reference/
+
 
 * Understand the Kubernetescluster architecture.
   * Kubernes components https://kubernetes.io/docs/concepts/overview/components/
