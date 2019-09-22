@@ -12,6 +12,24 @@ https://cka-exam.blog/core-concepts/
 
 * Understand the Kubernetescluster architecture.
   * Kubernes components https://kubernetes.io/docs/concepts/overview/components/
+    * Master
+      * Kubernetes API Server
+      * etcd
+      * kube-scheduler
+      * kube-controller-manager
+      * cloud-controller-manager
+      The following controllers have cloud provider dependencies:
+
+        * Node Controller: For checking the cloud provider to determine if a node has been deleted in the cloud after it stops responding
+        * Route Controller: For setting up routes in the underlying cloud infrastructure
+        * Service Controller: For creating, updating and deleting cloud provider load balancers
+        * Volume Controller: For creating, attaching, and mounting volumes, and interacting with the cloud provider to orchestrate volumes
+
+    * Node
+      * kubelet
+      * kube-proxy
+      * Container Runtime
+
   * Nodes https://kubernetes.io/docs/concepts/architecture/nodes/
   * Master-Node communication https://kubernetes.io/docs/concepts/architecture/master-node-communication/
   * Cloud Controller Manager https://kubernetes.io/docs/concepts/architecture/cloud-controller/
