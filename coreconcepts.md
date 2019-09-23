@@ -10,7 +10,7 @@ https://cka-exam.blog/core-concepts/
   https://kubernetes.io/docs/reference/
 
 
-* Understand the Kubernetescluster architecture.
+* Understand the Kubernetes cluster architecture.
   * Kubernes components https://kubernetes.io/docs/concepts/overview/components/
     * Master
       * Kubernetes API Server
@@ -40,5 +40,19 @@ https://cka-exam.blog/core-concepts/
   * Cloud Controller Manager https://kubernetes.io/docs/concepts/architecture/cloud-controller/
 
 * Understand Services and other network primitives.
-  * Services https://kubernetes.io/docs/concepts/services-networking/service/
+  * Services: An abstract way to expose an application running on a set of Pods as a network service.https://kubernetes.io/docs/concepts/services-networking/service/
+    * Two main stream modes 
+      * iptables mode
+        * need to set readiness probes
+      * ipvs mode
+    * Multi-Port Services
+    * Four type of Service
+      * ClusterIP: default
+      * NodePort:
+      * LoadBlancer:
+      * ExternalName:
+
+  * Connecting Applications with Service
+  https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/
+  
   * Ingress 
