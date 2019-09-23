@@ -1,4 +1,4 @@
-# Core Concepts 11%
+# Core Concepts 19%
 https://cka-exam.blog/core-concepts/
 
 * Understand the Kubernetes API primitives.
