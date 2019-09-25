@@ -55,5 +55,7 @@ https://cka-exam.blog/core-concepts/
   * Connecting Applications with Service
   https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/
     * the part for SSL is great https://github.com/kubernetes/examples/tree/master/staging/https-nginx/
-    
-  * Ingress 
+
+  * Ingress
+  https://kubernetes.io/docs/concepts/services-networking/ingress/
+
