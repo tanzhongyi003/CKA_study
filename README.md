@@ -16,7 +16,7 @@ https://cka-exam.blog
 # 3. <a href=applicationlifecycle.md> Application Lifecycle Management 8% </a>
 # 4. <a href=cluster.md>Cluster 11%</a>
 # 5. <a href=coreconcepts.md>Core Concepts 19%</a>
-
+# 6. <a href=install.md> Instalation,Configuration &Validation 12% </a>
 
 # Tools 
 
