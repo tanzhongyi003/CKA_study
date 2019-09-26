@@ -41,10 +41,16 @@ https://cka-exam.blog/installation-configuration-validation/
    * Cluster Networking https://kubernetes.io/docs/concepts/cluster-administration/networking/
      * pod to localhost
      * pod to pod
-     * pod to service
-     * External to service
+     * pod to service (by service)
+     * External to service(by service)
+   * The Kubernetes network model
+     * Every pod gets its own IP (containers on one pod share the same IP, but need to use seperate port, IP-per-pod model)
+     * Many implentations such as Calico, Weave Net
 
  * Choose your Kubernetes infrastructure configuration.
+
  * Run end-to-end tests on your cluster.
+
  * Run Node end-to-end tests.
+ 
  * Install and use kubeadm toinstall,configure, and manage Kubernetes clusters.
