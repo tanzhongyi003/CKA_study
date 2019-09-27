@@ -1,15 +1,10 @@
-# Kubernetes CKA Study
+# CKA Study
 
 # CKA curriculum 1.14
 https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_V1.14.1.pdf
 
 # kubectl cheatsheet
 https://kubernetes.io/docs/reference/kubectl/cheatsheet/
-# Old version of ref 
-http://www.kubernet.io/scheduling_cka_1.9.0.html
-# CKA exam blog 
-https://cka-exam.blog
-
 
 # 1. <a href=scheduling.md> Scheduling 5% </a>
 # 2. <a href=logging.md> Logging/Monitoring 5% </a>
@@ -36,3 +31,9 @@ https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with
   ##  https://github.com/dgkanatsios/CKAD-exercises
   ## https://github.com/walidshaari/Kubernetes-Certified-Administrator
   ## https://github.com/twajr/ckad-prep-notes
+
+  # Old version of ref  
+  http://www.kubernet.io/scheduling_cka_1.9.0.html
+  # CKA exam blog for 1.9.0
+https://cka-exam.blog
+
