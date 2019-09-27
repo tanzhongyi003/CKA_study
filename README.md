@@ -19,6 +19,7 @@ https://cka-exam.blog
 # 6. <a href=install.md> Instalation,Configuration &Validation 12% </a>
 # 7. <a href=storage.md>Storage 7%</a>
 # 8. <a href=network.md>Networking 11%</a>
+# 9. <a href=security.md>Security 12%</a>
 
 # Tools 
 
