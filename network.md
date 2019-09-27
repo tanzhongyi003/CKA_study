@@ -15,6 +15,14 @@ https://cka-exam.blog/networking/
  * Deploy and configure network load balancer.
    * type=LoadBalancer https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/
 
+ * Know how to use Ingres rules.
+   *  Ingress https://kubernetes.io/docs/concepts/services-networking/ingress/
+   *  Katacoda https://www.katacoda.com/courses/kubernetes/create-kubernetes-ingress-routes
+
+
  * Know how to configure and use the cluster DNS
    * DNS for service https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/
- * Know how to use Ingres rules.
+
+
+ * Understand CNI
+   * CNI https://kubernetes.io/docs/concepts/cluster-administration/addons/
