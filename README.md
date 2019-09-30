@@ -15,7 +15,7 @@ https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 # 7. <a href=storage.md>Storage 7%</a>
 # 8. <a href=network.md>Networking 11%</a>
 # 9. <a href=security.md>Security 12%</a>
-
+# 10. <a href=troubleshotting.md>Troubleshotting 10%</a>
 # Tools 
 
   ## CKA Exam tool: https://github.com/arush-sal/cka-practice-environment
