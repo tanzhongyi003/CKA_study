@@ -24,8 +24,11 @@ To use the prebuilt images run:
   ### docker-compose up -d 
   and point your browser to http://localhost
 
-## Using systemd in Linux 
+## Linux tools that need to be used
+  * Using systemd in Linux 
 https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal
+  * vim
+  * bash
 
 # Links
   ##  https://github.com/dgkanatsios/CKAD-exercises
