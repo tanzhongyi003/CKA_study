@@ -16,6 +16,7 @@ https://cka-exam.blog/cluster-maintenance-11/
   https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/
 
   * ETCD backup:
-    * ETCDCTL_API=3 etcdctl --endpoints=https://172.31.18.134:2379 --cert=./server.crt --key=./server.key --cacert=./ca.crt snapshot save snapshot.db
-    * ETCDCTL_API=3 etcdctl --endpoints=https://172.31.18.134:2379 --cert=./server.crt --key=./server.key --cacert=./ca.crt snapshot status ./snapshot.db --write-out=table
+    * ETCDCTL_API=3 etcdctl --endpoints=https://127.0.0.1:2379 --cert=/etc/kubernetes/pki/apiserver-etcd-client.crt --key=/etc/kubernetes/pki/apiserver-etcd-client.key --cacert=/etc/kubernetes/pki/etcd/ca.crt  snapshot save snapshot.db
+    
+    * ETCDCTL_API=3 etcdctl --endpoints=https://127.0.0.1:2379 --cert=/etc/kubernetes/pki/apiserver-etcd-client.crt --key=/etc/kubernetes/pki/apiserver-etcd-client.key --cacert=/etc/kubernetes/pki/etcd/ca.crt  snapshot status ./snapshot.db --write-out=table
 
