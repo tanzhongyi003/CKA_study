@@ -14,3 +14,8 @@ https://cka-exam.blog/cluster-maintenance-11/
   About etcd, look at the chapter focused on backup&restore:
   * Etcd disaster recovery documentation
   https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/
+
+  * ETCD backup:
+    * ETCDCTL_API=3 etcdctl --endpoints=https://172.31.18.134:2379 --cert=./server.crt --key=./server.key --cacert=./ca.crt snapshot save snapshot.db
+    * ETCDCTL_API=3 etcdctl --endpoints=https://172.31.18.134:2379 --cert=./server.crt --key=./server.key --cacert=./ca.crt snapshot status ./snapshot.db --write-out=table
+

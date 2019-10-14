@@ -6,6 +6,8 @@ https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_V1.14.1.pdf
 # kubectl cheatsheet
 https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
+# Concepts
+
 # 1. <a href=scheduling.md> Scheduling 5% </a>
 # 2. <a href=logging.md> Logging/Monitoring 5% </a>
 # 3. <a href=applicationlifecycle.md> Application Lifecycle Management 8% </a>
